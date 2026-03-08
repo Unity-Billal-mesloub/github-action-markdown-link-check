@@ -167,7 +167,7 @@ jobs:
 
 ### Too many requests
 Use `retryOn429`, `retry-after`, `retryCount`, and `fallbackRetryDelay` in your custom configuration file.
-See https://github.com/tcort/markdown-link-check#config-file-format for details.
+See https://github.com/Unity-Billal-mesloub/markdown-link-check#config-file-format for details.
 
 Or mark 429 status code as alive:
 ```json
