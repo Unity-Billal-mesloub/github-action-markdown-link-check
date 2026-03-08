@@ -200,7 +200,7 @@ Consider a workflow file that checks for the status of hyperlinks on push to the
 name: Check .md links
 
 on:
-  push: [master]
+  push: [main]
 
 jobs:
   markdown-link-check:
@@ -216,8 +216,6 @@ jobs:
         use-verbose-mode: 'yes'
 ```
 A file `test.md` exists, containing
-
-![image](https://user-images.githubusercontent.com/53875297/159135478-87194037-f3d6-4ca9-9da8-f01dac482fbc.png)
 
 On running the workflow described above, the output shown below is obtained
 
