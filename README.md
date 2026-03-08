@@ -215,12 +215,6 @@ jobs:
       with:
         use-verbose-mode: 'yes'
 ```
-A file `test.md` exists, containing
-
-On running the workflow described above, the output shown below is obtained
-
-![image](https://user-images.githubusercontent.com/53875297/159135426-9f439d39-8bb3-40f0-9255-9efe2b493c1a.png)
-
 
 ## Versioning
 GitHub Action - Markdown link check follows the [GitHub recommended versioning strategy](https://github.com/Unity-Billal-mesloub/toolkit/blob/main/docs/action-versioning.md).
