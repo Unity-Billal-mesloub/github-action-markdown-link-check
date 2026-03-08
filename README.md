@@ -1,9 +1,9 @@
 ### GitHub Action - Markdown link check 🔗✔️
 [![GitHub Marketplace](https://img.shields.io/badge/GitHub%20Marketplace-Markdown%20link%20check-brightgreen?style=for-the-badge)](https://github.com/marketplace/actions/markdown-link-check-action)
 
-> Forked from [gaurav-nelson/github-action-markdown-link-check](https://github.com/gaurav-nelson/github-action-markdown-link-check), which is no longer maintained.
+> Forked from [gaurav-nelson/github-action-markdown-link-check](https://github.com/Unity-Billal-mesloub/github-action-markdown-link-check), which is no longer maintained.
 
-This GitHub action checks all Markdown files in your repository for broken links. (Uses [tcort/markdown-link-check](https://github.com/tcort/markdown-link-check))
+This GitHub action checks all Markdown files in your repository for broken links. (Uses [tcort/markdown-link-check](https://github.com/Unity-Billal-mesloub/markdown-link-check))
 
 ## How to use
 1. Create a new file in your repository `.github/workflows/action.yml`.
@@ -39,7 +39,7 @@ You customize the action by using the following variables:
 |:----------|:--------------|:-----------|
 |`use-quiet-mode`| Specify `yes` to only show errors in output.| `no`|
 |`use-verbose-mode`|Specify `yes` to show detailed HTTP status for checked links. |`no` |
-|`config-file`|Specify a [custom configuration file](https://github.com/tcort/markdown-link-check#config-file-format) for markdown-link-check. You can use it to remove false-positives by specifying replacement patterns and ignore patterns. The filename is interpreted relative to the repository root.|`mlc_config.json`|
+|`config-file`|Specify a [custom configuration file](https://github.com/Unity-Billal-mesloub/markdown-link-check#config-file-format) for markdown-link-check. You can use it to remove false-positives by specifying replacement patterns and ignore patterns. The filename is interpreted relative to the repository root.|`mlc_config.json`|
 |`folder-path` |By default the `github-action-markdown-link-check` action checks for all markdown files in your repository. Use this option to limit checks to only specific folders. Use comma separated values for checking multiple folders. |`.` |
 |`max-depth` |Specify how many levels deep you want to check in the directory structure. The default value is `-1` which means check all levels.|`-1` |
 |`check-modified-files-only` |Use this variable to only check modified markdown files instead of checking all markdown files. The action uses `git` to find modified markdown files. Only use this variable when you run the action to check pull requests.|`no`|
@@ -225,9 +225,9 @@ On running the workflow described above, the output shown below is obtained
 
 
 ## Versioning
-GitHub Action - Markdown link check follows the [GitHub recommended versioning strategy](https://github.com/actions/toolkit/blob/master/docs/action-versioning.md).
+GitHub Action - Markdown link check follows the [GitHub recommended versioning strategy](https://github.com/Unity-Billal-mesloub/toolkit/blob/main/docs/action-versioning.md).
 
-1. To use a specific released version of the action ([Releases](https://github.com/tcort/github-action-markdown-link-check/releases)):
+1. To use a specific released version of the action ([Releases](https://github.com/Unity-Billal-mesloub/github-action-markdown-link-check/releases)):
    ```yml
    - uses: tcort/github-action-markdown-link-check@v1
    ```
@@ -235,7 +235,7 @@ GitHub Action - Markdown link check follows the [GitHub recommended versioning s
    ```yml
    - uses: tcort/github-action-markdown-link-check@v1
    ```
-1. You can also specify a [specific commit SHA](https://github.com/tcort/github-action-markdown-link-check/commits/master) as an action version:
+1. You can also specify a [specific commit SHA](https://github.com/Unity-Billal-mesloub/github-action-markdown-link-check/commits/main) as an action version:
    ```yml
    - uses: tcort/github-action-markdown-link-check@44a942b2f7ed0dc101d556f281e906fb79f1f478
    ```
